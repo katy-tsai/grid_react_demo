@@ -5,13 +5,13 @@ import ResponsiveGrid from '../components/grid/ResponsiveGrid';
 const DndViewDemo = () => {
     const { width, height, ref } = useResizeDetector();
     let [items,setItems]=useState([
-        {id:1},
-        {id:2},
-        {id:3},
-        {id:4},
-        {id:5},
-        {id:6},
-        {id:7},{id:8},{id:9},{id:10},
+        {id:1,x:0,y:0,w:6,h:1},
+        {id:2,x:1,y:0,w:6,h:1},
+        // {id:3},
+        // {id:4},
+        // {id:5},
+        // {id:6},
+        // {id:7},{id:8},{id:9},{id:10},
     ])
     
     return (
